@@ -1,3 +1,3 @@
 # google-account-switch
 
-A simple chrome extension which helps you switch between your multiple google accounts at just the press of a button. 
+A simple chrome extension using which you can switch between your google accounts easily.
