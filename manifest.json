@@ -1,0 +1,15 @@
+{
+  "name": "Account Switcher",
+  "version": "1.0", 
+  "description": "Change your google account by pressing cntrl+shift+z",
+  "author":"Devansh Sharma",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["myscript.js"],
+      "run_at" : "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
